@@ -1,12 +1,12 @@
-# 🚀 API REST - Gerenciamento de Produtos (Backend)
+# API REST - Gerenciamento de Produtos (Backend)
 
 API RESTful desenvolvida em **Java** com **Spring Boot** para gerenciamento de produtos e autenticação de usuários com Spring Security e JWT.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
-* **Java 17+**
+* **Java 25**
 * **Spring Boot 3.x**
 * **Spring Security** (Autenticação e Autorização)
 * **Java JWT (`com.auth0:java-jwt`)** (Tokens de acesso HmacSHA256)
@@ -16,7 +16,7 @@ API RESTful desenvolvida em **Java** com **Spring Boot** para gerenciamento de p
 
 ---
 
-## 🔒 Segurança e Autenticação
+##Segurança e Autenticação
 
 * **Filtro Customizado (`JwtFiltro`):** Intercepta as requisições HTTP para validar o token JWT enviado no cabeçalho `Authorization: Bearer <token>`.
 * **CORS Configurado:** Permite a integração segura com a aplicação frontend (Next.js).
@@ -24,7 +24,7 @@ API RESTful desenvolvida em **Java** com **Spring Boot** para gerenciamento de p
 
 ---
 
-## 📌 Endpoints da API
+##Endpoints da API
 
 ### **Autenticação (`/usuarios`)**
 * `POST /usuarios/cadastrar` - Cadastro de novos usuários.
@@ -39,9 +39,9 @@ API RESTful desenvolvida em **Java** com **Spring Boot** para gerenciamento de p
 
 ---
 
-## ⚙️ Como Executar a Aplicação
+## Como Executar a Aplicação
 
 ### **Pré-requisitos**
-* Java 17 ou superior instalado.
+* Java 25 instalado.
 * Maven instalado (ou utilize o wrapper `./mvnw`).
 
